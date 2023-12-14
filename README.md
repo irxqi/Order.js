@@ -30,7 +30,7 @@ Before you begin, ensure that you have the following prerequisites installed:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/irxqi/Order.js.git
     ```
 
 2. Navigate to the project directory:
