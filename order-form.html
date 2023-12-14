@@ -1,0 +1,92 @@
+<!-- order-form.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Order Form</h1>
+    <form action="/submit-order" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" required>
+
+      <label for="connectionMethod">Way of Connection:</label>
+      <select name="connectionMethod" required>
+        <option value="telegram">Telegram</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="messenger">Messenger</option>
+        <option value="discord">Discord</option>
+      </select>
+
+      <label for="connectionName">Connection Name:</label>
+      <input type="text" name="connectionName" required>
+
+      <label for="orderDescription">Order Description:</label>
+      <textarea name="orderDescription" rows="4" required></textarea>
+
+      <p id="orderNumber" style="display: none;"></p>
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+  <script>
+    // You can add JavaScript logic here if needed
+  </script>
+</body>
+</html>
