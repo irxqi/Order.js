@@ -1,4 +1,3 @@
-![image](https://github.com/irxqi/Order.js/assets/109720344/58fa12f2-c666-4137-97b5-97a17c1539d6)
 # Order Management System
 
 This project is a simple Order Management System built using Node.js and Express, allowing users to submit orders through an HTML form. The system includes features such as order counting, saving orders as JSON files, and sending order details to a Discord webhook.
@@ -88,23 +87,19 @@ To receive order notifications, you need to set up a Discord webhook. Follow the
 ## Screenshots
 
 Main Page
-
-![Main Page](https://imgur.com/fgLWTvo)
+![Main Page](https://github.com/irxqi/Order.js/assets/109720344/acd1b7bd-719c-45e4-9e56-d0749ff6862a)
 
 
 Example of submitting a page
-
-![Sumbitting](https://imgur.com/8TbegIB)
+![Submitting](https://github.com/irxqi/Order.js/assets/109720344/6bb41e19-0a47-4ab7-91bc-47498b357785)
 
 
 After hitting "Sumbit Order"
-
-![Sumbitted](https://imgur.com/VtkICa9)
+![Submitted](https://github.com/irxqi/Order.js/assets/109720344/dba51a8a-2439-4689-b557-7f44e31ee044)
 
 
 From discord side
-
-![Discord](https://imgur.com/iFyDymt)
+![Discord](https://github.com/irxqi/Order.js/assets/109720344/58fa12f2-c666-4137-97b5-97a17c1539d6)
 
 
 ## Acknowledgments
