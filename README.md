@@ -67,8 +67,11 @@ Before you begin, ensure that you have the following prerequisites installed:
 
 ## Project Structure
 
-...
-
+- **`order-counter.json`**: A JSON file used to store and retrieve the order counter.
+- **`orders`**: A directory to store individual order JSON files.
+- **`order-form.html`**: HTML file containing the order submission form.
+- **`success.html`**: HTML file displayed after a successful order submission.
+- **`app.js`**: The main application file with the Express server setup and order handling logic.
 ## Discord Webhook
 
 To receive order notifications, you need to set up a Discord webhook. Follow these steps:
@@ -84,18 +87,22 @@ To receive order notifications, you need to set up a Discord webhook. Follow the
 ## Screenshots
 
 Main Page
+
 ![Main Page](https://imgur.com/fgLWTvo)
 
 
 Example of submitting a page
+
 ![Sumbitting](https://imgur.com/8TbegIB)
 
 
 After hitting "Sumbit Order"
+
 ![Sumbitted](https://imgur.com/VtkICa9)
 
 
 From discord side
+
 ![Discord](https://imgur.com/iFyDymt)
 
 
