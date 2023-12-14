@@ -1,3 +1,4 @@
+![image](https://github.com/irxqi/Order.js/assets/109720344/58fa12f2-c666-4137-97b5-97a17c1539d6)
 # Order Management System
 
 This project is a simple Order Management System built using Node.js and Express, allowing users to submit orders through an HTML form. The system includes features such as order counting, saving orders as JSON files, and sending order details to a Discord webhook.
